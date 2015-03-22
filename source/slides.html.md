@@ -1,0 +1,195 @@
+---
+title: slides
+---
+
+\#badhax
+
+---
+
+![Kali Linux: Penetration Testing](http://www.netwerkguardian.com/wp/wp-content/uploads/2013/03/Kali_Linux.jpg)
+
+---
+￼
+![The Credo of the Lock Picker: You may only pick locks that you own, or those to which you've been given explicit permission to pick by the rightful owner](https://draftin.com:443/images/13944?token=U5zZIniX5hpGg55Iwb9Ol-2BbL0Nxb0M9xGe-SxdBX3QaLqBlxMjoseKTRHMWXeETvmSYLi9HjsIFI8wUAY66aU) 
+
+---
+
+Social Engineering
+
+---
+
+## _Cookies_
+
+How websites remember you
+
+---
+
+![Every time you request a page from a website, you send it any cookies it gave you](https://draftin.com:443/images/14006?token=PnyY20aBKe9SCpQ44ALQzQXY9RiKeyaCpETNOjPdr25mClq93_05y3eatdDMvh0G54H6Xhz1m64XrmKTCU20gz4) 
+
+---
+
+![Every time it sends you a page, it tells you new cookies to set](https://draftin.com:443/images/14008?token=lrUIdxrVVwtSzgrRey5zP4LRMqliescKqOFxZGDmd7aWL9O0eS3x26U2McqlJSxi-fzpe1xmxIfbL2CmRhu2oko) 
+
+---
+
+Seven Layers of _Networks_
+
+---
+
+Open Systems Interconnection (_OSI_) model
+
+---
+
+![The OSI model: seven layers of networks](http://4.bp.blogspot.com/-ZuBQeJqCkhA/UygNDBNrY2I/AAAAAAAAAFA/dvmoyQoCGm0/s1600/osi.gif)
+
+---
+
+![Each layer only talks to the layer above and below it](http://windowites.files.wordpress.com/2011/02/osi.jpg)
+
+---
+
+![The seven layers pictured a third way, taken from Wikipedia: https://en.wikipedia.org/wiki/OSI_model#Description_of_OSI_layers](https://draftin.com:443/images/13484?token=vlb9AxaA9Vxl7kOTnGosuZVL80BUQI4875p4XGaC5yAK-lSZ50QuBFv8aTr6pKRdEtQlCXmG_2J07fUbTqp9Slg) 
+
+---
+
+# &nbsp;
+
+![screenshot of ebay with all of the images flipped upside down](http://www.ex-parrot.com/pete/shot1.png)
+
+[Upside-Down-Ternet](http://www.ex-parrot.com/pete/upside-down-ternet.html)
+
+---
+
+Ok, so _Wireshark_
+
+---
+
+![screenshot of wireshark interface](https://draftin.com:443/images/13486?token=V6w5MJNV4HXlLybqdG1YSJt4KWURXGzB_s95JcuPtXdLuXIR1O-wXfNcgR88a0H3Jk-DOmnzqSp8dz6J0JCzKW0)
+
+---
+
+![wireshark interface: network layer 2 highlighted](https://draftin.com:443/images/13487?token=ugT9rH1QDyoNGLO9-7ulGrOHA6m_Bej4WmRVOE7QPVyObdJtk4930cRtCIp5-85Ha8SQEdNzrtEPibnSeGaNYW8) 
+
+---
+
+![wireshark interface: network layer 1 highlighted](https://draftin.com:443/images/13488?token=xqXoO8ldeus45-B3w5Gf-3qH321piU4W4bTLOYFpIXHxanvO7_qPRGH4XfX4f58cx8ZGN0GtAjvA-GkynTaR3FM) 
+
+---
+
+![wireshark interface: network layer 3 highlighted](https://draftin.com:443/images/13489?token=EnbBFJrmRvF5SBTUtfV0cNvluyNpA0k4GQnpDwbq6tgRN26w_OdlPpDMSWLuEVDni1SScVz0MJ_-p39lMcIQETQ) 
+
+---
+
+![wireshark interface: network layer 4 highlighted](https://draftin.com:443/images/13490?token=-OGyiWzrs5Woa6kjT_0R4pOYONGjBH3j9dJspv5aJgMUlDfIr5ISecqToxiSJQxO1oyQ6Et6-N1MuCaKeRzn-ns) 
+
+---
+
+![wireshark interface: network layer 7 highlighted](https://draftin.com:443/images/13491?token=5OdV4rStjaLcJpvAiil2vKjOMJZDxuqBon7P3QL6uDul1qWG0goJMWzeDjzkIzePHMF4B3lfEKdz0Sw-Nt7v4Ww) 
+
+---
+
+![wireshark interface: network layer 6 highlighted](https://draftin.com:443/images/13492?token=Y4SSTIjASguFpy1zDiVCv_kVVjKmeL5_CjHNlBFJZqJKGDDP5ENG3VuCWD7FmUtF9NudxlJ8r-MyEI8xKyTWZC4) 
+
+---
+
+First person to hack me gets _5cɃ_
+
+---
+
+Second person to hack me gets _5cɃ_
+
+---
+
+## Firesheep
+
+(_baaaa_)
+
+---
+
+Protect Yourself with [a VPN](http://lifehacker.com/5935863/five-best-vpn-service-providers)
+
+---
+
+Building a site?
+
+## Use HTTPS _everywhere_
+
+---
+
+## _XSS_
+
+Cross-Site Scripting
+
+---
+
+![](https://draftin.com:443/images/13940?token=jr2JAaF8HM7ldkppTozf9D1Fkzf-v4Z8qb3FSzRNY_e381Kyg_a8WYzaRMQi9BX3-RylTUhEgGhnJlxG8Bm-8ZM) 
+
+---
+
+`<input type="search" name="q" value="harper">`
+
+---
+
+![filling the input with "><script>alert(document.cookie)</script><input type="hidden](https://draftin.com:443/images/13926?token=Sugaumukx2qw8mYo79sso0QFOw5TWFghtiaT3He95x42eGEdtpSeCxfFWZTDrGDLE3iSogsMqDAPKrV-L1HsCng)
+
+---
+
+`<input type="search" name="q" value="`
+
+`"><script>alert(document.cookie)</script><input type="hidden`
+
+`">`
+
+---
+
+X-Xss-Protection: _0_
+
+---
+
+Making it last
+
+---
+
+![In a comment on catmeanings.herokuapp.com, "This cat is definitely about drugs. <script>alert('hello')</script>"](https://draftin.com:443/images/13934?token=Zdomtu18oKcPrv031DCBtGKFCeoaBLdApUxCWgcOPVOq_J5KOm2-FtZMWu83P_gPoWogsBJ_0eYVXku6lBuZlVE)
+
+---
+
+Caught with my hand in the [Catnip Jar](http://catnip-jar.herokuapp.com/)
+
+---
+
+## XSRF/CSRF
+
+Cross-Site _Request Forgery_
+
+---
+
+![](https://draftin.com:443/images/13938?token=oYvfzm5cA0RGbcqKu1bqxKh-TC8d-Yok4Z5Yvz5Geqv9lCpl1AAlRLzHqM_ROispeo4PrY0ogZnggJGFcbHBb_U) 
+
+`<form action="/users/dumb_update" method="get">`
+
+---
+
+`<img src="http://catmeanings.herokuapp.com/users/dumb_update?user[email]=lol%40lol.lol&user[password]=p0wned&user[password_confirmation]=p0wned" />`
+
+---
+
+SQL Injection
+
+---
+
+![A woman is talking on the phone, holding a cup / Phone: Hi, this is your son's school. We're having some computer trouble.
+Mom: Oh dear—did he break something? / Phone: In a way—
+Phone: Did you really name your son "Robert'); DROP TABLE Students;--" ? / Mom: Oh, yes. Little Bobby Tables, we call him.
+Phone: Well, we've lost this year's student records. I hope you're happy. / Mom: And I hope you've learned to sanitize your database inputs](http://imgs.xkcd.com/comics/exploits_of_a_mom.png)
+
+---
+
+## Other Resources
+
+* [Railsgoat](http://railsgoat.cktricky.com/index.html)
+* [OWASP Top 10](https://www.owasp.org/index.php/Top_10_2013-Top_10)
+
+---
+
+[Class Survey](https://docs.google.com/spreadsheet/viewform?formkey=dERWZmJ1cnlVaVdacGFDZ0ZHdUZXWmc6MA)
