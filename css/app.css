@@ -1,0 +1,29 @@
+body {
+  font-family: monospace;
+}
+
+header.banner {
+  background-color: #322;
+}
+header.banner h1 {
+  margin: 0;
+  font-size: 4rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+header.banner h1 a {
+  color: white;
+}
+
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+code {
+  word-wrap: break-word;
+}
