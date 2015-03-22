@@ -10,9 +10,11 @@ header.banner h1 {
   font-size: 4rem;
   max-width: 800px;
   margin: 0 auto;
+  color: white;
 }
 header.banner h1 a {
   color: white;
+  text-decoration: none;
 }
 
 .content {
