@@ -24,7 +24,13 @@
         <![endif]-->
 
         <header class="banner">
-          <h1><%= link_to "#badhax", 'index.html', relative: true %></h1>
+          <h1>
+            <% if current_page.destination_path == "index.html" %>
+              #badhax
+            <% else %>
+              <%= link_to "#badhax", 'index.html', relative: true %>
+            <% end %>
+          </h1>
         </header>
 
         <div class="content">
