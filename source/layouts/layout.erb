@@ -7,7 +7,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <!-- Use title if it's in the page YAML frontmatter -->
-        <title><%= current_page.data.title || "#badhax" %></title>
+        <title><%= "#{t = current_page.data.title}#{" • " if t}#badhax" %></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
 
@@ -15,6 +15,7 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/app.css">
         <script src="js/vendor/modernizr-2.6.1.min.js"></script>
     </head>
     <body>
@@ -26,23 +27,17 @@
           <h1><a href="/">#badhax</a></h1>
         </header>
 
-        <% if current_page.data.title %>
-          <h1> &gt; <%= current_page.data.title %></h1>
-        <% end %>
+        <div class="content">
+          <% if current_page.data.title %>
+            <h1> &gt; <%= current_page.data.title %></h1>
+          <% end %>
 
-        <%= yield %>
+          <%= yield %>
+        </div>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.0.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
-
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)}(document,'script'));
-        </script>
     </body>
 </html>
