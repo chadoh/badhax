@@ -2,7 +2,7 @@
 
 Site built with Middleman.
 
-Slides made to run with [big](https://github.com/tmcw/big), but that's not implemented yet.
+Slides run with [big](https://github.com/tmcw/big), which was more complicated & messy than anticipated!
 
 # Run it locally
 
